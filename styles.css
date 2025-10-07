@@ -28,6 +28,13 @@ h1 {
 
 #introduction {
     display : flex;
-    
+    align-items : center; 
+    justify-content: center;
+    flex-wrap : wrap; /* allows wrapping on smaller screens */
+    gap : 200px; /* space between items */
+    margin-top : 50px; /* pushing it down */
+}
 
+#introduction .name-highlight {
+    color : #04D9FF; /* Highlight color */
 }
