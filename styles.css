@@ -18,7 +18,6 @@ body {
     color : #ffffff;
     background-color: #1f242d;
     padding : 20px;
-    
 }
 
 
@@ -42,7 +41,7 @@ body {
 }
 
 #introduction .name-highlight {
-  color : #04D9FF; /* Highlight color */
+  color : #00F0FF; /* Highlight color */
 }
 
 /* Profile Picture */
@@ -51,7 +50,7 @@ body {
   height : 300px;
   object-fit: cover;   /* crop image to fit circle */
   border-radius : 50%; /* rounded corners */
-  border : 4px solid #04D9FF; /* adds a border */
+  border : 4px solid #00F0FF; /* adds a border */
 }
 
 #introduction .about-me {
