@@ -51,6 +51,7 @@ body {
   object-fit: cover;   /* crop image to fit circle */
   border-radius : 50%; /* rounded corners */
   border : 4px solid #00F0FF; /* adds a border */
+  object-position: 50% 60%; /* adjust position of image within circle */
 }
 
 #introduction .about-me {
@@ -61,5 +62,18 @@ body {
   font-size : 16px;
 }
 
+/* == Contact Details == */
+
+#contact-details {
+  display : flex;
+  align-items : center;
+  margin-top : 40px;
+  gap : 15px;
+}
+
+#contact-details .icon {
+  width : 40px;
+  height : 40px;
+}
 
 
