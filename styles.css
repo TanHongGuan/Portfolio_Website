@@ -108,37 +108,40 @@ hr {
   margin-left : 200px;
 }
 
-/* === Bottom Navigation === */
+/* === Switcher Button About Me and Projects === */
 
-#navigation-bar {
-  padding : 30px;
+.switcher {
   text-align : center;
 }
 
-.bottom-nav .nav-links{
-  display : inline-flex; /* list side by side */
-  list-style : none; /* remove bullets */
-  gap : 40px; /* space between items */
+.about-me-button, .projects-button {
+  color: #00F0FF;
+  background : none;
+  border: 1px solid #00F0FF;
+  padding: 10px 20px;
+  margin : 10px;
+  border-radius: 9999px; 
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.bottom-nav .nav-links a {
-  display : inline-block;
-  padding : 10px 20px; /* padding inside the link */
-  border : 1px solid #00F0FF; 
-  border-radius: 9999px; /* pill shape */
-  text-decoration: none; /* remove underline */
-  color : #ffffff;
-  font-size : 18px;
-  transition : color 0.3s; /* smooth color change on hover */
-  
-}
-
-.bottom-nav .nav-links a:hover {
+.about-me-button:hover, .projects-button:hover {
   background-color: #00F0FF;
-  color : #000000 ; /* hover color */
+  color: #1f242d;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* === Academic Background === */
+/* Section visibility */
+.visible-section {
+  display: block; /* about me shown by default */
+}
+
+.hidden-section {
+  display: none; /* projects hidden by default */
+}
+
+
+/* === Educational Background === */
 
 
 .academic-details {
