@@ -20,7 +20,7 @@ body {
     padding : 20px;
 }
 
-
+/* === Introduction === */
 #introduction {
   display : flex;
   align-items : top; 
@@ -44,6 +44,12 @@ body {
   color : #00F0FF; /* Highlight color */
 }
 
+hr {
+  border : 2px solid #ffffff;
+  width: 15%;
+  margin : 20px 0; /* spacing above and below */
+}
+
 /* Profile Picture */
 #introduction .profile-pic {
   width : 300px;
@@ -58,11 +64,11 @@ body {
 #introduction .about-me {
   flex-wrap : wrap;
   align-items : center;
-  margin-top : 30px;
   line-height : 1.6;
   font-size : 16px;
 }
 
+/* Contact Details */
 #introduction .contact-details {
   display : flex; 
   margin-top : 30px;
@@ -76,6 +82,8 @@ body {
   height : 40px;
   border-radius : 10px;
 }
+
+/* Coding, Developing , Producing */
 
 #introduction .love {
   display: flex;
@@ -98,6 +106,32 @@ body {
   display: inline-block;
   margin-left : 200px;
 }
+
+/* === Bottom Navigation === */
+
+#navigation-bar {
+  padding : 30px;
+  text-align : center;
+}
+
+.bottom-nav .nav-links{
+  display : inline-flex; /* list side by side */
+  list-style : none; /* remove bullets */
+  gap : 40px; /* space between items */
+}
+
+.bottom-nav .nav-links a {
+  text-decoration: none; /* remove underline */
+  color : #ffffff;
+  font-size : 18px;
+  transition : color 0.3s; /* smooth color change on hover */
+}
+
+.bottom-nav .nav-links a:hover {
+  text-decoration: underline; /* underline on hover */
+  color : #00F0FF ; /* hover color */
+}
+
 
 
 
