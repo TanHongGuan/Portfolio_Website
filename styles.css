@@ -212,5 +212,26 @@ hr {
   text-decoration: underline;
 }
 
+/* === About Me === */
+
+#about-me {
+  padding : 30px;
+  width : 75%;
+  margin : 0 auto; /* center the whole section */
+  text-align : center;
+  line-height : 1.7;
+
+}
+
+#about-me h1 {
+  font-size : 26px;
+  margin-bottom : 20px;
+}
+
+.longhr {
+  border : 2px solid #ffffff;
+  width: 5%;
+  margin : 20px auto; /* spacing above and below, centered */
+}
 
 
