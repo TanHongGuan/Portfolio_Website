@@ -122,24 +122,23 @@ hr {
 }
 
 .bottom-nav .nav-links a {
+  display : inline-block;
+  padding : 10px 20px; /* padding inside the link */
+  border : 1px solid #00F0FF; 
+  border-radius: 9999px; /* pill shape */
   text-decoration: none; /* remove underline */
   color : #ffffff;
   font-size : 18px;
   transition : color 0.3s; /* smooth color change on hover */
+  
 }
 
 .bottom-nav .nav-links a:hover {
-  text-decoration: underline; /* underline on hover */
-  color : #00F0FF ; /* hover color */
+  background-color: #00F0FF;
+  color : #000000 ; /* hover color */
 }
 
 /* === Academic Background === */
-
-#academic-background {
-  padding : 30px;
-  width : 80%;
-  margin : 0 auto; /* center the whole section */
-}
 
 
 .academic-details {
@@ -153,7 +152,8 @@ hr {
 }
 
 .section-title {
-  grid-column : 1 / -1; /* span all columns */
+  text-align : left;
+  padding-top : 20px;
 }
 
 .skills {
@@ -164,7 +164,7 @@ hr {
   justify-content: flex-start;
 }
 
-.skills span {
+.skills p {
   padding: 4px 10px;
   border: 1px solid #fff;
   font-size: 16px;
@@ -228,7 +228,7 @@ hr {
   margin-bottom : 20px;
 }
 
-.longhr {
+.shorthr {
   border : 2px solid #ffffff;
   width: 5%;
   margin : 20px auto; /* spacing above and below, centered */
