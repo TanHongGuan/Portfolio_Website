@@ -64,17 +64,40 @@ body {
 }
 
 #introduction .contact-details {
-  margin-top : 20px;
+  display : flex; 
+  margin-top : 30px;
   text-align : left;
+  align-items : center;
+  gap : 20px;
 }
 
 #introduction .icon {
-  width : 60px;
-  height : 60px;
+  width : 40px;
+  height : 40px;
+  border-radius : 10px;
+}
+
+#introduction .love {
+  display: flex;
+  align-items: top;
+  gap : 20px; 
+}
+
+#introduction .love h1 {
+  font-family :'Courier New', Courier, monospace;
+  font-style : italic;
 }
 
 
+#introduction .develop {
+  display: inline-block;
+  margin-left : 180px;
+}
 
+#introduction .produce {
+  display: inline-block;
+  margin-left : 200px;
+}
 
 
 
