@@ -114,7 +114,7 @@ hr {
   text-align : center;
 }
 
-.about-me-button, .projects-button {
+.tab {
   color: #00F0FF;
   background : none;
   border: 1px solid #00F0FF;
@@ -125,19 +125,19 @@ hr {
   font-size: 16px;
 }
 
-.about-me-button:hover, .projects-button:hover {
+.tab.active {
   background-color: #00F0FF;
-  color: #1f242d;
-  transition: background-color 0.3s, color 0.3s;
+  color: #1f242d; /* Dark background for contrast */
 }
+
 
 /* Section visibility */
-.visible-section {
-  display: block; /* about me shown by default */
+.content {
+  display: none; 
 }
 
-.hidden-section {
-  display: none; /* projects hidden by default */
+.content.is-visible {
+  display: block; 
 }
 
 
