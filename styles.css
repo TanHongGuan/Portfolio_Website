@@ -343,3 +343,11 @@ hr {
 
 
 
+
+/* ==== Resume ==== */
+
+#resume .resume_image {
+  display : block;
+  width : 70%;
+  margin : 20px auto ;
+}
