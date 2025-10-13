@@ -85,6 +85,20 @@ hr {
   border-radius : 10px;
 }
 
+.contact {
+  display : flex;
+  align-items: center;
+}
+
+.contact p {
+  padding-left: 10px;
+}
+
+.contact img {
+  border-radius : 50%;
+  object-fit: cover;
+}
+
 /* Coding, Developing , Producing */
 
 #introduction .love {
