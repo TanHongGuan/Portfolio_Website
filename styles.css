@@ -286,6 +286,17 @@ hr {
   margin-left : 20px;
 }
 
+.project-showcase {
+  display : flex;
+  margin : 20px 0 auto;
+}
+
+.project-showcase img {
+  border-radius: 15%;
+  padding : 10px;
+  height : 600px;
+
+}
 
 
 
