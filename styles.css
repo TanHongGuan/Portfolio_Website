@@ -70,7 +70,7 @@ hr {
   font-size : 16px;
 }
 
-/* Contact Details */
+/*==== Contact Details =====*/
 #introduction .contact-details {
   display : flex; 
   margin-top : 30px;
@@ -97,6 +97,33 @@ hr {
 .contact img {
   border-radius : 50%;
   object-fit: cover;
+}
+
+.copy {
+  cursor : pointer; /* show hand pointer when hovered over */
+  transition : color 
+                0.3s 
+                ease; /* gradual transition rather than instantaneous */
+}
+
+.copy:hover{
+  color: #00F0FF;
+}
+
+#toast {
+  position : fixed; /* Stays in place even scrolling */
+  bottom : 20px; 
+  /* below 2 centers toast horizontally center */
+  left: 50%; 
+  transform: translateX(-50%);
+  /* toast color*/
+  background: #ffffff;
+  color :black;
+  padding : 8px 12px;
+  border-radius: 9999px;
+  opacity: 0; /*invisible by default*/
+  transition : opacity 0.3s ease;
+  font-size : 14px;
 }
 
 /* Coding, Developing , Producing */
