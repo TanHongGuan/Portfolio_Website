@@ -241,6 +241,8 @@ hr {
 #projects {
   margin-top : 20px;
   align-items: center;
+  width: 80%;
+  margin : auto;
 }
 
 
@@ -248,29 +250,34 @@ hr {
   display : grid;
   grid-template-columns: 400px auto;
   column-gap: 40px;
-  width : 80%;
-  margin : auto;
+  padding-top : 50px;
+  height: auto;
 }
+
+
 
 .col1 {
   text-align: top;
   display: grid;
   grid-template-rows: auto auto auto;
-
 }
 
 .col1 .Header {
   font-size: 36px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom : 20px;
 }
+
+
 
 .col1 .description {
   line-height: 1.4;
+  padding-top : 20px;
 }
 
 .col2 {
   display : grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 400px 300px;
   text-align: top;
   line-height: 1.5;
 }
