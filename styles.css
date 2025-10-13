@@ -78,7 +78,7 @@ hr {
   gap : 20px;
 }
 
-#introduction .icon {
+.icon {
   width : 40px;
   height : 40px;
   border-radius : 10px;
@@ -92,7 +92,7 @@ hr {
   gap : 20px; 
 }
 
-#introduction .love h1 {
+#introduction .love {
   font-family :'Courier New', Courier, monospace;
   font-style : italic;
 }
@@ -236,5 +236,49 @@ hr {
   width: 5%;
   margin : 20px auto; /* spacing above and below, centered */
 }
+
+/* === Projects === */
+#projects {
+  margin-top : 20px;
+  align-items: center;
+}
+
+
+.project_card {
+  display : grid;
+  grid-template-columns: 400px auto;
+  column-gap: 40px;
+  width : 80%;
+  margin : auto;
+}
+
+.col1 {
+  text-align: top;
+  display: grid;
+  grid-template-rows: auto auto auto;
+
+}
+
+.col1 .Header {
+  font-size: 36px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col1 .description {
+  line-height: 1.4;
+}
+
+.col2 {
+  display : grid;
+  grid-template-columns: auto auto;
+  text-align: top;
+  line-height: 1.5;
+}
+
+.list-indexing {
+  margin-left : 20px;
+}
+
+
 
 
